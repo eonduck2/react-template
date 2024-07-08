@@ -26,3 +26,10 @@ template                          //
 └─ webpack.config.js              //
 
 ```
+
+# Set-Up
+- Tyepscript
+- React
+- Babel
+- Webpack
+  - Some loaders
