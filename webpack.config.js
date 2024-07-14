@@ -2,6 +2,8 @@ const path = require("node:path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
+  mode: "development",
+  // mode: "production",
   entry: path.join(__dirname, "src", "client", "index.tsx"),
   output: {
     filename: "app.bundle.js",
@@ -34,4 +36,11 @@ module.exports = {
     }),
   ],
   devtool: "source-map",
+  devServer: {
+    static: {
+      directory: path.join(__dirname, "dist"),
+    },
+    compress: true,
+    port: 3000,
+  },
 };

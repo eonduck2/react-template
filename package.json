@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:dev": "webpack --mode=development",
-    "build:prod": "webpack --mode=production"
+    "build:prod": "webpack --mode=production",
+    "dev:server": "webpack serve --open"
   },
   "keywords": [],
   "author": "",
@@ -25,7 +26,8 @@
     "ts-loader": "^9.5.1",
     "typescript": "^5.5.3",
     "webpack": "^5.92.1",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
   },
   "dependencies": {
     "react": "^18.3.1",
