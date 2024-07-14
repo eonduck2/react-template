@@ -1,5 +1,13 @@
+# Set-Up
+
+- Tyepscript
+- React
+- Babel
+- Webpack
+  - Some loaders
+
 ```
-template                          //
+react-template                    //
 ├─ .babelrc                       //
 ├─ package-lock.json              //
 ├─ package.json                   //
@@ -13,9 +21,12 @@ template                          //
 ├─ README.md                      //
 ├─ src                            //
 │  ├─ client                      //
-│  │  ├─ client.txt               //
-│  │  └─ modules                  //
-│  │     └─ client_module.txt     //
+│  │  ├─ App.tsx                  //
+│  │  ├─ index.tsx                //
+│  │  ├─ modules                  //
+│  │  │  └─ client_module.txt     //
+│  │  └─ styles                   //
+│  │     └─ style.css             //
 │  ├─ server                      //
 │  │  ├─ modules                  //
 │  │  │  └─ server_module.txt     //
@@ -26,10 +37,3 @@ template                          //
 └─ webpack.config.js              //
 
 ```
-
-# Set-Up
-- Tyepscript
-- React
-- Babel
-- Webpack
-  - Some loaders
